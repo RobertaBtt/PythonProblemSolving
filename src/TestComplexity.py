@@ -1,4 +1,5 @@
 __author__ = 'roby'
+
 #Problem: You are given an integer n.
 # Count the total of 1+2+ ... + n.
 

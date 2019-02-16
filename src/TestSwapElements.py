@@ -1,3 +1,4 @@
+__author__ = 'roby'
 
 class TestSwapElement:
 
