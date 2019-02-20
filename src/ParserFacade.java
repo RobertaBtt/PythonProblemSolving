@@ -15,6 +15,7 @@ public class ParserFacade {
         return instance;
     }
 
+    private ParserFacade(){}
     private File file;
 
     public synchronized void setFile(File f) {
