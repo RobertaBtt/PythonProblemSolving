@@ -83,27 +83,15 @@ public class TestCodility {
         if (hashMapLog.containsKey(phoneNumber)) {
             updatedDuration = hashMapLog.get(phoneNumber) + durationInSeconds;
 
-            updatedPayment = getPayment(updatedDuration);
-
-            /*This is a replacement*/
-            hashMapLogPay.put(phoneNumber, updatedPayment);
-
-            /*This is a sum*/
-            hashMapLog.put(phoneNumber, hashMapLog.get(phoneNumber) + durationInSeconds);
         } else {
-
             updatedDuration = durationInSeconds;
-            updatedPayment = getPayment(updatedDuration);
-
-            hashMapLog.put(phoneNumber, updatedDuration);
-            hashMapLogPay.put(phoneNumber, updatedPayment);
         }
+
+        updatedPayment = getPayment(updatedDuration);
+        hashMapLogPay.put(phoneNumber, updatedPayment);
+        hashMapLog.put(phoneNumber, updatedDuration);
+
     }
-
-    private static void updateHashMapPay(String phoneNumber, Integer duration){
-
-    }
-
 
     private static int getPayment(int updatedDuration){
 
