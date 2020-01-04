@@ -1,4 +1,4 @@
-# When a Programer has Free Time
+# When a Programmer has Free Time
 Train your brain with some dev tests.
 
 Most of the classes are Python classes
