@@ -1,4 +1,4 @@
-__author__ = 'roby'
+__author__ = 'RobertaBtt'
 
 #Problem: You are given an integer n.
 # Count the total of 1+2+ ... + n.

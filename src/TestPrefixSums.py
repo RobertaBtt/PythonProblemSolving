@@ -1,4 +1,4 @@
-__author__ = 'roby'
+__author__ = 'RobertaBtt'
 
 class TestPrefixSum:
     def prefix_sums(A):
