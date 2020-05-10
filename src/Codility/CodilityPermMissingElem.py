@@ -11,4 +11,4 @@ class PermMissingElem:
         return result - sum(A)
 
 
-print(PermMissingElem.solution([1,2,3,5,6,7,8,4]))
+print(PermMissingElem.solution([1,2,5,6,7,8]))
