@@ -18,5 +18,5 @@ class OddOccurencyInArray:
 
         return result
 
-print(OddOccurencyInArray.solution([9, 3, 9, 3, 9, 7, 9]))
+print(OddOccurencyInArray.solution([9, 3, 9, 3, 9, 7, 9,7,8,1,8]))
 

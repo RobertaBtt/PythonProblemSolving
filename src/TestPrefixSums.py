@@ -3,7 +3,10 @@ __author__ = 'RobertaBtt'
 class TestPrefixSum:
     def prefix_sums(A):
         n = len(A)
+
+        # Builds the Array of dimension n+1
         P = [0] * (n + 1)
+
         for k in range(1, n + 1):
             P[k] = P[k - 1] + A[k - 1]
         return P

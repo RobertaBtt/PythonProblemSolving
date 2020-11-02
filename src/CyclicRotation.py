@@ -19,5 +19,6 @@ class CyclicRotation:
         return new_list
 
 
-print (CyclicRotation.solution([3, 8, 9, 7, 6], 8))
-print (CyclicRotation.solution([1, 2, 3, 4], 4))
+#print (CyclicRotation.solution([3, 8, 9, 7, 6], 8))
+#print (CyclicRotation.solution([1, 2, 3, 4], 4))
+print (CyclicRotation.solution([1, 2, 3, 4, 5], 2))
