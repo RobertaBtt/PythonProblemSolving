@@ -1,4 +1,3 @@
-import re
 
 def decryptPassword(s):
     n_of_numbers = 0

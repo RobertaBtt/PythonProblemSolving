@@ -31,12 +31,3 @@ end = timer()
 print((end - start)*100) # Time in seconds, e.g. 5.3809195
 
 #I print *100 just to compare "human readable" numbers, without the exponential notation.
-
-
-
-
-
-
-
-# ...
-

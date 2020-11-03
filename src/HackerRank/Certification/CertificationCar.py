@@ -1,11 +1,5 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
-
 class Car:
     def __init__(self, max_speed, units):
         self.units = units

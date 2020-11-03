@@ -2,13 +2,18 @@
 
 import os
 from functools import reduce
+import collections
 
 # Complete the sockMerchant function below.
-# Input n = Number of sokcs
+# Input n = Number of socks
 # ar = n space-separated array of socks
 
 def my_add(a, b):
     return a + b
+
+# def sockMerchant(n, ar):
+#     counter = collections.Counter(ar)
+#     return counter
 
 # Return the total number of matching pairs of socks that John can sell.
 def sockMerchant(n, ar):

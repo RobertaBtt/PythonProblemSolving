@@ -1,12 +1,5 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
-
-
 # write your code here
 def avg_function(*args):
     if len(args)==1:

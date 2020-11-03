@@ -1,7 +1,5 @@
 __author__ = 'RobertaBtt'
-import array as arr
-from random import seed
-from random import randint
+
 from itertools import accumulate
 
 class TapeEquilibrum:
@@ -19,8 +17,7 @@ class TapeEquilibrum:
 
     def solutionC(A):
 
-        array_sum = sum(A)  #
-
+        array_sum = sum(A)
         accumulated_list = accumulate(A[:-1])
 
         # x + array_sum is the right part of the sum
