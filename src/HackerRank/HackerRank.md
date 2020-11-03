@@ -6,16 +6,11 @@
  
  
 #### Problem Solving
- https://www.hackerrank.com/domains/data-structures?badge_type=problem-solving
+ - https://www.hackerrank.com/challenges/arrays-ds/problem 
  - https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+ - https://www.hackerrank.com/challenges/array-left-rotation/problem
+ - https://www.hackerrank.com/challenges/drawing-book/problem
  
-
-###### Array DS
-
- - https://www.hackerrank.com/challenges/arrays-ds/problem
- 
- ###### Left Rotation
-  - https://www.hackerrank.com/challenges/array-left-rotation/problem
 
 #### Practice
  - https://www.hackerrank.com/domains/python?badge_type=python
@@ -26,4 +21,5 @@
  - https://www.hackerrank.com/challenges/finding-the-percentage/problem
  - https://www.hackerrank.com/challenges/py-the-captains-room/problem
  - https://www.hackerrank.com/challenges/py-check-subset/problem
+ 
  
