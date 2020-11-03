@@ -13,7 +13,7 @@
  ![logo](src/HackerRank/HackerRankLogo.png)
 
 #### Interview Preparation
-###### Sales by Match
+
  - https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges
  
  
@@ -24,6 +24,7 @@
  - https://www.hackerrank.com/challenges/drawing-book/problem
  - https://www.hackerrank.com/challenges/counting-valleys/problem
  - https://www.hackerrank.com/challenges/electronics-shop/problem
+  - https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
 
 #### Practice
  - https://www.hackerrank.com/domains/python?badge_type=python
