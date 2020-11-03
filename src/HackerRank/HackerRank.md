@@ -25,3 +25,5 @@
  - https://www.hackerrank.com/challenges/nested-list/problem
  - https://www.hackerrank.com/challenges/finding-the-percentage/problem
  - https://www.hackerrank.com/challenges/py-the-captains-room/problem
+ - https://www.hackerrank.com/challenges/py-check-subset/problem
+ 
