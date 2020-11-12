@@ -8,6 +8,9 @@
  - https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/
  - https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
  - https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
+ - https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
+ - https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
+ 
  
  
  ![logo](src/HackerRank/HackerRankLogo.png)
@@ -24,7 +27,9 @@
  - https://www.hackerrank.com/challenges/drawing-book/problem
  - https://www.hackerrank.com/challenges/counting-valleys/problem
  - https://www.hackerrank.com/challenges/electronics-shop/problem
-  - https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
+ - https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
+ - https://www.hackerrank.com/challenges/apple-and-orange/problem
+ - https://www.hackerrank.com/challenges/most-commons/problem?
 
 #### Practice
  - https://www.hackerrank.com/domains/python?badge_type=python

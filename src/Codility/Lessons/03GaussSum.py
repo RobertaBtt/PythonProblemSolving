@@ -5,7 +5,7 @@ __author__ = 'RobertaBtt'
 
 from timeit import default_timer as timer
 
-class TestComplexity:
+class GaussSum:
     def count_total(n):
         total = 0
 
@@ -21,12 +21,12 @@ class TestComplexity:
         return result
 
 start = timer()
-print("FIRST" , TestComplexity.count_total(100))
+print("FIRST", GaussSum.count_total(100))
 end = timer()
 print((end - start)*100)# Time in seconds, e.g. 5.3809195
 
 start = timer()
-print("SECOND" , TestComplexity.model_solution(100))
+print("SECOND", GaussSum.model_solution(100))
 end = timer()
 print((end - start)*100) # Time in seconds, e.g. 5.3809195
 
