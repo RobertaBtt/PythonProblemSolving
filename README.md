@@ -17,14 +17,20 @@
 
 #### Interview Preparation
 
- - https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges
+    
+ [Main Page Interview Preparation Kit][https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges]
+ - [Sock Merchant][https://www.hackerrank.com/challenges/sock-merchant/problem]
+ - [Counting Valleys][https://www.hackerrank.com/challenges/counting-valleys/problem]
+ - [Jumping on the Clouds][https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem]
+ - [Repeated-string][https://www.hackerrank.com/challenges/repeated-string/problem]
+ 
  
  
 #### Problem Solving
- - https://www.hackerrank.com/challenges/arrays-ds/problem 
- - https://www.hackerrank.com/challenges/birthday-cake-candles/problem
- - https://www.hackerrank.com/challenges/array-left-rotation/problem
- - https://www.hackerrank.com/challenges/drawing-book/problem
+ - [Arrays-ds][https://www.hackerrank.com/challenges/arrays-ds/problem ] 
+ - [Birthday-cake-candles][https://www.hackerrank.com/challenges/birthday-cake-candles/problem]
+ - [Array-left-rotation][https://www.hackerrank.com/challenges/array-left-rotation/problem]
+ - [Drawing-book][https://www.hackerrank.com/challenges/drawing-book/problem] 
  - https://www.hackerrank.com/challenges/counting-valleys/problem
  - https://www.hackerrank.com/challenges/electronics-shop/problem
  - https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
@@ -41,3 +47,23 @@
  - https://www.hackerrank.com/challenges/py-the-captains-room/problem
  - https://www.hackerrank.com/challenges/py-check-subset/problem
  - https://www.hackerrank.com/challenges/grading/problem
+
+[https://www.hackerrank.com/challenges/sock-merchant/problem]: https://www.hackerrank.com/challenges/sock-merchant/problem
+
+[https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges]: https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges
+
+[]: https://www.hackerrank.com/challenges/counting-valleys/problem
+
+[https://www.hackerrank.com/challenges/counting-valleys/problem]: https://www.hackerrank.com/challenges/counting-valleys/problem
+
+[https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem]: https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem
+
+[https://www.hackerrank.com/challenges/arrays-ds/problem ]: https://www.hackerrank.com/challenges/arrays-ds/problem
+
+[https://www.hackerrank.com/challenges/birthday-cake-candles/problem]: https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+
+[https://www.hackerrank.com/challenges/array-left-rotation/problem]: https://www.hackerrank.com/challenges/array-left-rotation/problem
+
+[https://www.hackerrank.com/challenges/drawing-book/problem]: https://www.hackerrank.com/challenges/drawing-book/problem
+
+[https://www.hackerrank.com/challenges/repeated-string/problem]: https://www.hackerrank.com/challenges/repeated-string/problem
