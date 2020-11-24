@@ -1,0 +1,4 @@
+select
+DEPARTMENT.NAME, count(*)
+from EMPLOYEE JOIN DEPARTMENT group by
+DEPARTMENT.NAME

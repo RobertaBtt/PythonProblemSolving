@@ -1,31 +1,23 @@
 __author__ = 'RobertaBtt'
 
+# 100% result on codility test https://app.codility.com/demo/results/trainingG34PNZ-ER2/
 class FrogRiver:
 
-    def get_counter(A, m):
-        n = len(A)
-        counter = [0] * (m + 1) #Creates array of m+1 elements, that is the same as n
-        for k in range(n):
-            counter[A[k]] += 1  # This is the key concept of the counter
-        return counter
+    def solution(X, A):
+        n=0
+        sum = 0
+        len_A = len(A)
+        dictionary = {}
+        while n < len_A:
+            if A[n] not in dictionary:
+                sum += 1
+            if sum == X:
+                return n
+            dictionary[A[n]] = 1
+            n += 1
+        return -1
 
-    def get_min_time(counter, A, X):
-
-        time = -1
-        for key, value in enumerate(A):
-            time += 1
-            if counter[value] > 0:
-
-                if value == X:
-                     return time
-
-
-    def solution(X,A):
-        m = max(A)
-        counter = FrogRiver.get_counter(A, m)
-        min_time = FrogRiver.get_min_time(counter,A,X)
-        return min_time
 
 print(FrogRiver.solution(5,[1,3,1,4,2,3,5,4]))
-print(FrogRiver.solution(1, [1]))
+print(FrogRiver.solution(1, [1])) #must return 0
 print(FrogRiver.solution(5, [3]))

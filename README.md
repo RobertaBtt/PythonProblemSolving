@@ -17,14 +17,13 @@
 
 #### Interview Preparation
 
-    
- [Main Page Interview Preparation Kit][https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges]
+   [Intervieinterview-preparation-kit][https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges]
+
  - [Sock Merchant][https://www.hackerrank.com/challenges/sock-merchant/problem]
  - [Counting Valleys][https://www.hackerrank.com/challenges/counting-valleys/problem]
  - [Jumping on the Clouds][https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem]
  - [Repeated-string][https://www.hackerrank.com/challenges/repeated-string/problem]
- 
- 
+ - [ctci-array-left-rotation][https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem] 
  
 #### Problem Solving
  - [Arrays-ds][https://www.hackerrank.com/challenges/arrays-ds/problem ] 
@@ -46,11 +45,9 @@
  - https://www.hackerrank.com/challenges/finding-the-percentage/problem
  - https://www.hackerrank.com/challenges/py-the-captains-room/problem
  - https://www.hackerrank.com/challenges/py-check-subset/problem
- - https://www.hackerrank.com/challenges/grading/problem
-
-[https://www.hackerrank.com/challenges/sock-merchant/problem]: https://www.hackerrank.com/challenges/sock-merchant/problem
-
-[https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges]: https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges
+ - [Grading][https://www.hackerrank.com/challenges/grading/problem]
+ - [Equality-in-a-array][https://www.hackerrank.com/challenges/equality-in-a-array/problem]
+ - [sock-merchant][https://www.hackerrank.com/challenges/sock-merchant/problem]
 
 []: https://www.hackerrank.com/challenges/counting-valleys/problem
 
@@ -67,3 +64,15 @@
 [https://www.hackerrank.com/challenges/drawing-book/problem]: https://www.hackerrank.com/challenges/drawing-book/problem
 
 [https://www.hackerrank.com/challenges/repeated-string/problem]: https://www.hackerrank.com/challenges/repeated-string/problem
+
+[https://www.hackerrank.com/challenges/equality-in-a-array/problem]: https://www.hackerrank.com/challenges/equality-in-a-array/problem
+
+[]: https://www.hackerrank.com/challenges/grading/problem
+
+[https://www.hackerrank.com/challenges/sock-merchant/problem]: https://www.hackerrank.com/challenges/sock-merchant/problem
+
+[https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges]: https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges
+
+[https://www.hackerrank.com/challenges/2d-array/problem]: https://www.hackerrank.com/challenges/2d-array/problem
+
+[https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem]: https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem

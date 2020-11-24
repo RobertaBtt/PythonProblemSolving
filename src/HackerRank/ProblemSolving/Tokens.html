@@ -1,0 +1,138 @@
+<div class="ps-content-wrapper-v0">
+<p><b id="docs-internal-guid-9b7156cc-7fff-cc5f-b1be-018a3da36b9b">In a standard transaction system, users are authenticated using authentication tokens. Each token has an expiry, denoted by <em>expiryLimit</em>. Each token expires automatically after <em>expiryLimit</em> minutes pass after it was last reset. When reset, the expiry time is reset to <em>expiryLimit</em> minutes from the time of reset. </b></p>
+
+<p>&nbsp;</p>
+
+<ol dir="ltr">
+	<li><b>A token can be reset any number of times. </b></li>
+	<li><b>Once a token expires it can no longer be accessed, and a reset issued to it will be ignored. </b></li>
+	<li><b>A reset issued to a non-existent token is also ignored.</b></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<p dir="ltr"><b id="docs-internal-guid-9b7156cc-7fff-cc5f-b1be-018a3da36b9b">The commands that can be issued to tokens are given below:</b></p>
+
+<p dir="ltr">&nbsp;</p>
+
+<ul dir="ltr">
+	<li>
+<em><b id="docs-internal-guid-9b7156cc-7fff-cc5f-b1be-018a3da36b9b">Get command</b></em><b id="docs-internal-guid-9b7156cc-7fff-cc5f-b1be-018a3da36b9b">&nbsp;-&nbsp;Syntax:</b>&nbsp;&nbsp;<code><b id="docs-internal-guid-9b7156cc-7fff-cc5f-b1be-018a3da36b9b">Get token_id T</b></code>
+</li>
+</ul>
+
+<p dir="ltr"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generates a token <em>token_id</em> at time <em>T.</em> Only one get token per <em>token_id</em> is possible.</b></p>
+
+<ul>
+	<li>
+<em><b id="docs-internal-guid-9b7156cc-7fff-cc5f-b1be-018a3da36b9b">Reset command -</b></em>&nbsp;S<b id="docs-internal-guid-9b7156cc-7fff-cc5f-b1be-018a3da36b9b">yntax:</b>&nbsp;&nbsp;<code><b id="docs-internal-guid-9b7156cc-7fff-cc5f-b1be-018a3da36b9b">Reset token_id T</b></code>
+</li>
+</ul>
+
+<p dir="ltr"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Resets the token <em>token_id</em> at time <em>T.</em></b></p>
+
+<p dir="ltr"><b id="docs-internal-guid-9b7156cc-7fff-cc5f-b1be-018a3da36b9b"><em>Note: </em></b></p>
+
+<ul dir="ltr">
+	<li><b>Get is represented by<em>&nbsp;0</em> and Reset by <em>1.</em></b></li>
+	<li>
+<b id="docs-internal-guid-9b7156cc-7fff-cc5f-b1be-018a3da36b9b">T</b>he current time, in the end, is&nbsp;the maximum time of all commands.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p dir="ltr"><b id="docs-internal-guid-9b7156cc-7fff-cc5f-b1be-018a3da36b9b">Given a sequence of commands with no pre-existing tokens, and these commands sorted ascending by their <em>T</em> parameter, find the number of tokens that are active just after all commands have been executed. </b></p>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr"><b>For example, given <em>expiryLimit = 4</em>, each time a token is created or reset, its new expiration time will be at time <em>T + 4</em>. The list of <em>commands = [[0,1,1], [0,2,2], [1,1,5],[1,2,7]].</em>&nbsp; The first command, <em>[0,1,1], </em>means get a new token with <em>token_id = 1</em>&nbsp;at time <em>T = 1</em>&nbsp;and set its expiry to <em>T + expiryLimit = 5.</em>&nbsp; The next command similarly creates <em>token_id = 2</em>&nbsp;with an expiry at <em>T = 6.</em>&nbsp; A reset command comes in for <em>token_id = 1</em>&nbsp;at <em>T = 5</em>&nbsp;which is within the expiry limit so a new limit is set: <em>5 + 4 = 9. token_id = 2</em>&nbsp;expires at time <em>T = 6,</em>&nbsp;so when the <em>Reset token_id = 2</em> command comes in at <em>T = 7</em>, it is ignored. Only <em>token_id = 1</em>&nbsp;is active at time <em>T = 7</em>.</b></p>
+
+<p>&nbsp;</p>
+
+<p class="section-title">Function Description</p>
+
+<p class="section-title">&nbsp;</p>
+
+<p>Complete the <em>numberOfTokens</em> function in the editor below. The function must return an integer that denotes the number of tokens that exist at the end of the command stream.</p>
+
+<p>&nbsp;</p>
+
+<p><em>numberOfTokens</em> has the following parameter(s):</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<em>expiryLimit:</em> An integer that denotes the expiry limit of each token.</p>
+
+<p><em>&nbsp;&nbsp;&nbsp;&nbsp;commands[commands[0]..commands[n-1]]:</em> A 2D integer array where each row, <em>commands[i],</em>&nbsp;has <em>3 </em>integers: <em>[command, token_id, T]</em>.</p>
+
+<p>&nbsp;</p>
+
+<p class="section-title">Constraints</p>
+
+<ul>
+	<li><em>1 ≤ expiryLimit &lt; 10<sup>8</sup></em></li>
+	<li><em>1 ≤ n &lt; 10<sup>5</sup></em></li>
+	<li><em>1 ≤ token_id &lt; 10<sup>8</sup></em></li>
+	<li><em>1 ≤ T &lt; 10<sup>8</sup></em></li>
+</ul>
+
+<p>&nbsp;</p>
+<!--       <StartOfInputFormat> DO NOT REMOVE THIS LINE-->
+
+<details open=""><summary class="section-title">Input Format For Custom Testing</summary>
+
+<div class="collapsable-details">
+<p>The first line contains the integer, <em>expiryLimit</em>.</p>
+
+<p>The second line contains the integer <em>n</em>, that denotes the number of elements in <em>commands</em>.</p>
+
+<p>The third line contains the integer<em> 3,</em> that denotes the number of details required to describe each command.</p>
+
+<p>Each line <em>i</em> of the <em>n</em> subsequent lines (where <em>0 ≤ i &lt; n)</em> contains three space-separated integers that represent <em>commands[i]</em>.</p>
+</div>
+</details>
+<!--        </StartOfInputFormat> DO NOT REMOVE THIS LINE-->
+
+<details open="open"><summary class="section-title">Sample Case 0</summary>
+
+<div class="collapsable-details">
+<p class="section-title">Sample Input For Custom Testing</p>
+
+<pre>3
+2
+3
+0 1 1
+1 1 5
+</pre>
+
+<p class="section-title">Sample Output</p>
+
+<pre>0
+</pre>
+
+<p class="section-title">Explanation</p>
+
+<p>The token with <em>id 1</em> is created at time <em>1</em>. It expires at time <em>4</em>. The reset command at time <em>5</em> is ignored since the token has expired. There are no tokens left.</p>
+</div>
+</details>
+
+<details><summary class="section-title">Sample Case 1</summary>
+
+<div class="collapsable-details">
+<p class="section-title">Sample Input For Custom Testing</p>
+
+<pre>3
+3
+3
+0 1 1
+1 1 4
+1 2 5</pre>
+
+<p class="section-title">Sample Output</p>
+
+<pre>1</pre>
+
+<p class="section-title">Explanation</p>
+
+<p>One token <em>1</em> is created at time <em>1.</em> It is supposed to expire at time <em>T =</em> <em>4,</em> but is reset at <em>T = 4</em>. Its next expiry is at <em>T = 7. </em>Since token<em> 2</em> does not exist, the reset command <em>1 2 5</em> does not have any effect. There is one token at the end when <em>T = 5</em>.</p>
+</div>
+</details>
+</div>
