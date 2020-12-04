@@ -56,3 +56,6 @@ if __name__ == '__main__':
         fptr.close()
 
 
+# Input is:
+# 5 4
+# 1 2 3 4 5

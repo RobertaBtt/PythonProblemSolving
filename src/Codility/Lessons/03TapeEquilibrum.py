@@ -24,4 +24,7 @@ class TapeEquilibrum:
         # x is the left part of the sum.
 
         return min([abs((x - array_sum) + x) for x in accumulated_list])
+
 print(TapeEquilibrum.solutionC([3,1,2,4,3]))
+print(TapeEquilibrum.solution([3,1,2,4,3]))
+

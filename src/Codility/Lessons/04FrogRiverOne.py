@@ -13,7 +13,8 @@ class FrogRiver:
                 sum += 1
             if sum == X:
                 return n
-            dictionary[A[n]] = 1
+            dictionary[A[n]] = 1 #It must be at least one leaf.
+            # I don't care to sum up the leaves. I need just one leaf in that position
             n += 1
         return -1
 

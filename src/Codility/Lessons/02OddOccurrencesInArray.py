@@ -15,10 +15,7 @@ class OddOccurencyInArray:
                 values_map[a] = 1
 
         result = [num for num in values_map.items() if num[1] % 2 == 1][0][0]
-
-        # PYTHONIC
-        result = [num for num in A if num %2 !=0 ]
         return result
 
 print(OddOccurencyInArray.solution([9, 3, 9, 3, 9, 7, 9,7,8,1,8]))
-
+print(OddOccurencyInArray.solution([9, 3, 9, 3, 9, 7, 9]))

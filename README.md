@@ -1,15 +1,15 @@
 ![logo](src/Codility/CodilityLogo.png)
 
 
- - https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
- - https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
- - https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
- - https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
- - https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/
- - https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
- - https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
+ - [binary_gap/][https://app.codility.com/programmers/lessons/1-iterations/binary_gap/]
+ - [cyclic_rotation/][https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/]
+ - [odd_occurrences_in_array/][https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/]
+ - [frog_jmp/][https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/]
+ - [perm_missing_elem/][https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/]
+ - [tape_equilibrium/][https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/]
+ - [frog_river_one/][https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/]
  - https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
- - https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
+ - [perm_check/][https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/]
  
  
  
@@ -76,3 +76,19 @@
 [https://www.hackerrank.com/challenges/2d-array/problem]: https://www.hackerrank.com/challenges/2d-array/problem
 
 [https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem]: https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem
+
+[https://app.codility.com/programmers/lessons/1-iterations/binary_gap/]: https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
+
+[https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/]: https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
+
+[https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/]: https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
+
+[https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/]: https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
+
+[https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/]: https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/
+
+[https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/]: https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
+
+[https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/]: https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
+
+[https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/]: https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
