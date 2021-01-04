@@ -13,7 +13,7 @@ __pycache__/
 *~
 # hg stuff
 *.orig
-status
+
 
 
 # various virtualenv
@@ -24,4 +24,3 @@ status
 /lib/
 /man/
 /share/
-/src/

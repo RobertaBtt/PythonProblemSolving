@@ -8,10 +8,11 @@
  - [perm_missing_elem/][https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/]
  - [tape_equilibrium/][https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/]
  - [frog_river_one/][https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/]
- - https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
+ - [missing_integer/][https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/]
  - [perm_check/][https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/]
- 
- 
+ - [max_counters/][https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/]
+ - [passing_cars/][https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/]
+ - [count_div/][https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/]
  
  ![logo](src/HackerRank/HackerRankLogo.png)
 
@@ -92,3 +93,16 @@
 [https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/]: https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
 
 [https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/]: https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
+
+[https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/]: https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
+
+[https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/]: https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/
+
+[https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/]: https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/
+
+[https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/]: https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/
+
+- HackerEarth
+
+- https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/array-sum-2-725368ac/description/
+

@@ -19,6 +19,12 @@ class PermCheck:
             return 0
         return 1
 
+    def solution(A):
+
+        fact_list = functools.reduce(lambda x, y: x * y, A)
+        if math.factorial(len(A)) == fact_list:
+            return 1
+        return 0
 
 print(PermCheck.solutionRoby([1,2,3,1,1,1,1,1,1,1,1,1]))
 print(PermCheck.solutionRoby([1,2,3]))
