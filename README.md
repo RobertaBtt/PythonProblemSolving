@@ -1,3 +1,10 @@
+Hello Friend
+
+Welcome to my Problem Solving Project.
+Here you can find some solutions on Codility Lessons, 
+Hacker Rank and Hacker Rank Problems.
+
+
 ![logo](src/Codility/CodilityLogo.png)
 
 
