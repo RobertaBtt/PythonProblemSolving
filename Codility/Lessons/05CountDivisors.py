@@ -1,23 +1,19 @@
 """Compute number of integers divisible by k in range [a..b]."""
 
-import math
+# Explanations here: https://app.codility.com/demo/results/trainingW92E84-XPZ/
+# Results here: https://app.codility.com/demo/results/trainingX3RY3Z-TQU/
 
 def solution(A,B,K):
-    div = 0
     if 0 <= A <= 2000000000 and 0 <= B <= 2000000000 and 1 <= K <= 2000000000:
-        if A <= B:
-            total_numbers = (B - A) +1
-
-            if total_numbers %K == 0:
-                div = total_numbers / K
-            else:
-                div = math.ceil(total_numbers / K)
+        if A % K == 0:
+            return (B - A) // K + 1
+        else:
+            return (B - (A - A % K)) // K
 
 
-    if div == 0:
-        return 1
-
-    return int(div)
+#Minimal
+A, B, K = 0,1,11
+print(solution(A,B,K))
 
 A,B,K = 6,11,2 #Expected 3
 print(solution(A,B,K))

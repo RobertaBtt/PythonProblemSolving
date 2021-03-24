@@ -3,6 +3,10 @@ __author__ = 'RobertaBtt'
 # 100% result on codility test https://app.codility.com/demo/results/trainingG34PNZ-ER2/
 class FrogRiver:
 
+    # that, given a non-empty array A consisting of N integers and integer X,
+    # returns the earliest time when the frog can jump to the other side of the river.
+    # If the frog is never able to jump to the other side of the river, the function should return −1.
+
     def solution(X, A):
         n=0
         sum = 0

@@ -16,8 +16,6 @@ and check only how the totals change during the swap operation
 '''
 
 
-
-
 class SwapToBalance:
 
     #This is an array of counters.
@@ -37,7 +35,7 @@ class SwapToBalance:
     # Best approach
     # - Count elemtents of A and B
     # - Get the difference between them
-    # - For every element in B we assume that we swap it with some element in A
+    # - For every element in B we assume that we add the difference to some element in A
     # - The difference d tells us the value from the array A that we are interested in swapping,
     # because only one value will cause the two totals to be equals.
     # The occurrence of this value can be found in constant time
@@ -54,8 +52,9 @@ class SwapToBalance:
 
         counter = SwapToBalance.get_counter(A, m)
         for i in range(n):
+            diff = B[i]-d
             # Poossible to swap and balance the two arrays ?
-            if 0 <= B[i] -d and B[i] -d <= m and counter[B[i] -d] >0:
+            if 0 <= diff <= m and counter[diff] > 0:
                 return True
         return False
 

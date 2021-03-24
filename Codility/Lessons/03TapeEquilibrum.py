@@ -20,11 +20,15 @@ class TapeEquilibrum:
         array_sum = sum(A)
         accumulated_list = accumulate(A[:-1])
 
-        # x + array_sum is the right part of the sum
-        # x is the left part of the sum.
+        # x is the accumulated part, in the left side
+        # array_sum -x is the is the right part of the sum
+        # the difference between the two is:
+        # y=array_sum-x;
+        # abs(y-x)
 
-        return min([abs((x - array_sum) + x) for x in accumulated_list])
+        return min([abs(array_sum-x-x) for x in accumulated_list])
 
 print(TapeEquilibrum.solutionC([3,1,2,4,3]))
 print(TapeEquilibrum.solution([3,1,2,4,3]))
+print(TapeEquilibrum.solution([5,4,3,2,3,23,3,2,3,4,3,2,11]))
 

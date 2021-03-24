@@ -2,6 +2,8 @@ __author__ = 'RobertaBtt'
 
 class OddOccurencyInArray:
 
+    #Given   an    array    A    consisting    of    N    integers    fulfilling
+    # the    above    conditions, returns    the    value    of    the    unpaired    element.
 
     def solution(A):
         # write your code in Python 3.6

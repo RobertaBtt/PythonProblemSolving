@@ -24,15 +24,16 @@ class SwapToBalance:
         sumA = sum(A)
         sumB = sum(B)
 
-        for a in range (n):
-            for b in range (n):
-                swap = B[b] - A[a]
-                sumA += swap #I add the difference to A
-                sumB -= swap #I substract the difference to B
+        for a in range(n):
+            for b in range(n):
+                diff_AB = B[b] - A[a]
+                sumA += diff_AB #I add the difference to A
+                sumB -= diff_AB #I substract the difference to B
                 if sumA == sumB:
                     return True
-                sumA -= swap #RESTORING A
-                sumB += swap #RESTORING B
+                #Else we are here, and we restore the sum for both
+                sumA -= diff_AB #RESTORING A
+                sumB += diff_AB #RESTORING B
 
         return False
 
