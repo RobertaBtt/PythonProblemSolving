@@ -3,6 +3,9 @@ __author__ = 'RobertaBtt'
 
 class BinaryGap:
 
+    def __init__(self):
+        pass
+
     @staticmethod
     def solution(n):
         started = False

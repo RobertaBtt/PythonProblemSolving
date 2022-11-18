@@ -5,8 +5,7 @@ Here you can find some solutions on Codility Lessons,
 Hacker Rank and Hacker Rank Problems.
 
 
-![logo](src/Codility/CodilityLogo.png)
-
+![CoddauLogo](Codility/CodilityLogo.png)
 
  - [binary_gap/][https://app.codility.com/programmers/lessons/1-iterations/binary_gap/]
  - [cyclic_rotation/][https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/]
@@ -21,8 +20,7 @@ Hacker Rank and Hacker Rank Problems.
  - [passing_cars/][https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/]
  - [count_div/][https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/]
  
- ![logo](src/HackerRank/HackerRankLogo.png)
-
+ ![HackerRank](HackerRank/HackerRankLogo.png)
 #### Interview Preparation
 
    [Intervieinterview-preparation-kit][https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges]

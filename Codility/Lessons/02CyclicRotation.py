@@ -2,6 +2,9 @@ __author__ = 'RobertaBtt'
 
 
 class CyclicRotation:
+    def __init__(self):
+        pass
+
     @staticmethod
     def solution(n, k):
         # k is the shift
