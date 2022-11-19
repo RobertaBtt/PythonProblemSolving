@@ -1,4 +1,3 @@
-
 import math
 import os
 import random
@@ -37,8 +36,6 @@ def repeatedString(s, n):
 
 if __name__ == '__main__':
     os.environ['OUTPUT_PATH'] = "/tmp/repeatedStrings.txt"
-
-
 
     s = input()
 
