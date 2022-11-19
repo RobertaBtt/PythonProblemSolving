@@ -39,7 +39,7 @@ Here you can find some solutions on Codility Lessons and Hacker Rank Problems.
 -----
 
 
- [Array Data Structure](https://www.hackerrank.com/challenges/arrays-ds/problem )
+[Array Data Structure](https://www.hackerrank.com/challenges/arrays-ds/problem )
  
 [Sales by match](https://www.hackerrank.com/challenges/sock-merchant/problem)
 
@@ -50,6 +50,8 @@ Here you can find some solutions on Codility Lessons and Hacker Rank Problems.
 [Repeated-string](https://www.hackerrank.com/challenges/repeated-string/problem)
 
 [Left Rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem)
+
+[Ransom Note](https://www.hackerrank.com/challenges/ctci-ransom-note)
 
 
 [Prepare](https://www.hackerrank.com/domains/python?badge_type=python)

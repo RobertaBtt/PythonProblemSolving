@@ -8,21 +8,31 @@ import re
 import sys
 
 # Complete the birthdayCakeCandles function below.
-def birthdayCakeCandles(ar_count, ar):
+# Returns: int: the number of candles that are tallest
+def birthdayCakeCandles(candles):
+    # Write your code here
 
-    max_number = max(ar_count)
-    print(max_number)
+    count = 0
+    max_number = max(candles)
+    for c in candles:
+        if str(max_number) == str(c):
+            count +=1
+
+    return count
 
 if __name__ == '__main__':
+    os.environ['OUTPUT_PATH'] = "/tmp/output.txt"
+
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    ar_count = int(input())
+    candles_count = int(input().strip())
 
-    ar = list(map(int, input().rstrip().split()))
+    candles = list(map(int, input().rstrip().split()))
 
-    result = birthdayCakeCandles(ar_count, ar)
+    result = birthdayCakeCandles(candles)
 
     fptr.write(str(result) + '\n')
 
     fptr.close()
+
 
