@@ -1,11 +1,7 @@
 #!/bin/python3
 
-from functools import reduce
-from collections import defaultdict
-
 # Complete the checkMagazine function below.
-def checkMagazine(magazine, note):
-
+def check_magazine(magazine, note):
     magazine_dictionary = dict()
 
     for i in magazine:
@@ -35,4 +31,4 @@ if __name__ == '__main__':
 
         note = input().rstrip().split()
 
-        print(checkMagazine(magazine, note))
+        print(check_magazine(magazine, note))
